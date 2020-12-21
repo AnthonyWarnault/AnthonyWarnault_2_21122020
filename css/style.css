@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 100%;
+    max-width: 95%;
+}
+
+/* ----- HEADER ----- */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.logo {
+    display: flex;
+    height: 60px;
+    width: 200px;
+}
+
+                            /* NAV */
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    font-size: 1.1em;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    margin-left: 100px;
+    position: relative;
+}
+
+.lock {
+    color: #0065FC;
+}
+
+.barre {
+    background-color: #0065FC;
+    width: 150%;
+    height: 2px;
+    position: absolute;
+    top: -58px;
+}
+
+#inscription {
+    font-weight: bold;
+    color: #0065FC;
+    margin-left: 100px;
+}
+
+/* ----- BODY HEADER ------ */
