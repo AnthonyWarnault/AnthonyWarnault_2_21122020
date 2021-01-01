@@ -11,20 +11,20 @@
 </head>
 <body>
     <div id="container"> <!--Container de la page-->
-        <div id="header"> <!--Header-->
+        <header id="header"> <!--Header-->
             <div class="logo"> <!--block 1-->
-                <img src="images/logo/Reservia@3x.png" alt="Reservia">
+                <img src="images/logo/Reservia.svg" alt="Reservia">
             </div>
             <nav> <!--block 2-->
                 <ul>
                     <li><a href="#contenu-heberg" class="lock">Hébergements<div class="barre"></div></a></li>
-                    <li><a href="#contenu-acti">Activités</a></li>
+                    <li><a href="#contenu-activite">Activités</a></li>
                     <li><a href="#" id="inscription">S'inscrire</a></li>
                 </ul>
             </nav>
-        </div>
+        </header>
 
-        <div id="body-header"> <!--Body Header-->
+        <section id="body-header"> <!--Body Header-->
             <div class="recherche"> <!--block 1-->
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
@@ -57,9 +57,9 @@
                 <i class="fas fa-info"></i>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
-        </div>
+        </section>
 
-        <div id="body"> <!--Body-->
+        <section id="body"> <!--Body-->
             <div id="contenu-heberg"> <!--block Hébergement-->
                 <div class="heberg">
                     <div class="titre">
@@ -153,7 +153,6 @@
                         <h3>Afficher Plus</h3>
                     </div>
                 </div>
-                <div class="vide"></div>
                 <div class="pop"> <!--block populaire-->
                     <div class="titre">
                         <h2>Les plus populaires</h2>
@@ -215,69 +214,73 @@
                     </div>
                 </div>
             </div>
-            <div id="contenu-acti"> <!--block Activité-->
+            <div id="contenu-activite"> <!--block Activité-->
                 <div class="titre">
                     <h2>Activités à Marseille</h2>
                 </div>
-                <div class="unit1"> <!--block acti 1-->
-                    <a href="#">
-                        <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
+                <div class="unit unit-solo"> <!--block acti 1-->
+                    <a href="#" class="unit-solo1">
+                        <img src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
                         <h3>Vieux Port</h3>
                     </a>
                 </div>
-                <div class="unit2"> <!--block acti 2-->
-                    <a href="#">
-                        <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+                <div class="unit unit-duo"> <!--block acti 2-->
+                    <a href="#" class="unit-duo1">
+                        <div class="img-container">
+                            <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+                        </div>
                         <h3>Fort de Pomègues</h3>
                     </a>
-                    <a href="#">
-                        <img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul">
+                    <a href="#" class="unit-duo2">
+                        <div class="img-container">
+                            <img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul">
+                        </div>
                         <h3>Îles du Frioul</h3>
                     </a>
                 </div>
-                <div class="unit3"> <!--block acti 3-->
-                    <a href="#">
-                        <img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
+                <div class="unit unit-solo"> <!--block acti 3-->
+                    <a href="#" class="unit-solo2">
+                        <img src="images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
                         <h3>Parc National des Calanques</h3>
                     </a>
                 </div>
-                <div class="unit4"> <!--block acti 4-->
-                    <a href="#">
-                        <img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
+                <div class="unit unit-duo"> <!--block acti 4-->
+                    <a href="#" class="unit-duo3">
+                        <img src="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
                         <h3>Notre-Dame-de-la-Garde</h3>
                     </a>
-                    <a href="#">
-                        <img src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
+                    <a href="#" class="unit-duo4">
+                        <img src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
                         <h3>Parc Longchamp</h3>
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div id="footer"> <!--Footer-->
-            <div class="col1"> <!--block foot 1-->
-                <h3>A propos</h3>
-                <ul>
-                    <li>Fonctionnement du site</li>
-                    <li>Conditions générales de vente</li>
-                    <li>Données et confidentialité</li>
-                </ul>
-            </div>
-            <div class="col2"> <!--block foot 2-->
-                <h3>Nos hébergements</h3>
-                <ul>
-                    <li>Charte qualité</li>
-                    <li>Soumettre votre hôtel</li>
-                </ul>
-            </div>
-            <div class="col3"> <!--block foot 3-->
-                <h3>Assistance</h3>
-                <ul>
-                    <li>Centre d'aide</li>
-                    <li>Nous contacter</li>
-                </ul>
-            </div>
-        </div>
     </div>
+    <footer> <!--Footer-->
+        <div class="col1"> <!--block foot 1-->
+            <h3>A propos</h3>
+            <ul>
+                <li>Fonctionnement du site</li>
+                <li>Conditions générales de vente</li>
+                <li>Données et confidentialité</li>
+            </ul>
+        </div>
+        <div class="col2"> <!--block foot 2-->
+            <h3>Nos hébergements</h3>
+            <ul>
+                <li>Charte qualité</li>
+                <li>Soumettre votre hôtel</li>
+            </ul>
+        </div>
+        <div class="col3"> <!--block foot 3-->
+            <h3>Assistance</h3>
+            <ul>
+                <li>Centre d'aide</li>
+                <li>Nous contacter</li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
