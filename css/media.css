@@ -1,3 +1,179 @@
+/* ----- TABLETTE ---- */
+@media screen and (max-width: 770px) and (min-width: 381px) {
+    #container {
+        max-width: 100%;
+    }
+
+        /* HEADER */
+    #header {
+        width: 90%;
+        flex-wrap: wrap;
+        position: relative;
+        margin: 0 5%;
+        margin-top: 30px;
+    }
+    nav {
+        width: 100%;
+        display: flex;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    nav ul {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav li a {
+        margin-left: 0;
+        padding-left: 30px;
+        font-weight: 400;
+    }
+    .lock {
+        padding-left: 20px;
+    }
+    .barre-bleu {
+        top: 35px;
+        height: 3px;
+        width: 200px;
+        margin-left: 10px;
+    }
+    .barre-gris {
+        background-color: #F2F2F2;
+        height: 3px;
+        width: 200px;
+        position: absolute;
+        top: 35px;
+    }
+
+        /* RECHERCHE */
+    .recherche {
+        margin: 0 5%;
+    }
+    .champs {
+        position: relative;
+        margin-top: 30px;
+    }
+    label {
+        width: 60px;
+        height: 60px;
+    }
+    input {
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+    .bloc-filtres {
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    .bloc-filtres h2 {
+        width: 100%;
+    }
+    .filtres {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .info {
+        margin: 20px 3% 0px 3%;
+    }
+    
+        /* POP ET HEBERGEMENT */
+    .pop {
+        width: 100%;
+    }
+    .pop .pad {
+        width: 85%;
+        max-height: 300px;
+    }
+    .pop-img {
+        max-width: 50%;
+        width: 250px;
+        height: 250px;
+    }
+    .description h3, .description p {
+        margin: 0;
+        padding: 0;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .description .stars {
+        padding-left: 15px;
+    }
+    .description h3 {
+        margin-top: 5px;
+    }
+    #contenu-heberg {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .heberg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .pad {
+        width: 85%;
+        margin: 15px 0px;
+        max-height: 500px;
+    }
+    .pad-img {
+        max-height: 220px;
+    }
+    .pad3 {
+        margin-left: 0;
+    }
+    .titre {
+        margin-bottom: 20px;
+        padding-left: 50px;
+    }
+    .titre i {
+        padding-right: 60px;
+    }
+
+        /* ACTIVITE */
+    #contenu-activite {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 0;
+    }
+    #contenu-activite .titre {
+        margin-bottom: 25px;
+        padding-left: 50px;
+    }
+    .unit {
+        width: 85%;
+        margin-bottom: 30px;
+    }
+    .unit img {
+        max-height: 250px;
+        width: 100%;
+    }
+    .unit-duo1 {
+        margin-bottom: 30px;
+    }
+    .unit-duo3 {
+        margin-bottom: 30px;
+    }
+
+        /* FOOTER */
+    footer {
+        width: 100%;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 0;
+        text-align: center;
+    }
+    .col1,.col2, .col3 {
+        margin: 20px;
+    }
+}
+
 /* ----- PORTABLE ----- */
 
 @media screen and (max-width: 380px) {
@@ -106,7 +282,8 @@
         width: 95%;
     }
     .pop-img {
-        max-width: 150px;
+        max-width: 50%;
+        width: 125px;
         height: 180px;
     }
     .description h3, .description p {
