@@ -1,4 +1,117 @@
 /* ----- TABLETTE ---- */
+@media screen and (min-width: 771px) and (max-width: 1030px) {
+    #container {
+        max-width: 96%;
+    }
+    
+       /* POP ET HEBERGEMENT */
+    .pop {
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .pop .pad {
+        width: 65%;
+        max-height: 300px;
+    }
+    .pop-img {
+        max-width: 50%;
+        width: 240px;
+        height: 220px;
+    }
+    .description-txt {
+        margin-right: 10px;
+    }
+    .description h3, .description p {
+        margin: 0;
+        padding: 0;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .description .stars {
+        padding-left: 15px;
+    }
+    .description p {
+        align-items: flex-end;
+    }
+    #contenu-heberg {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .heberg {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .pad {
+        width: 45%;
+        margin: 15px 0px;
+        max-height: 500px;
+    }
+    .pad-img {
+        max-height: 220px;
+    }
+    .pad3 {
+        margin-left: 0;
+    }
+    .titre {
+        margin-bottom: 20px;
+        padding-left: 35px;
+    }
+    .titre i {
+        padding-right: 60px;
+    }
+
+        /* ACTIVITE */
+     #contenu-activite {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 0;
+        }
+     #contenu-activite .titre {
+        margin-bottom: 25px;
+        }
+    .unit {
+        width: 48%;
+        margin-bottom: 30px;
+        }
+    .unit img {
+        max-height: 250px;
+        width: 100%;
+        }
+    .unit-solo {
+        order: 1;
+    }
+    .unit-duo {
+        order: 2;
+    }
+    .unit-duo1 {
+        margin-bottom: 30px;
+        }
+    .unit-duo3 {
+        margin-bottom: 30px;
+    }
+    
+    /* FOOTER */
+    footer {
+        width: 100%;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 0;
+        text-align: center;
+    }
+    .col1,.col2, .col3 {
+        margin: 20px;
+    }
+}
+
 @media screen and (max-width: 770px) and (min-width: 381px) {
     #container {
         max-width: 100%;
@@ -59,7 +172,17 @@
     }
     input {
         padding-left: 10px;
+        width: 280px;
         padding-right: 20px;
+    }
+    .search-desktop {
+        display: none;
+    }
+    .search-mobile {
+        display: block;
+        width: 60px;
+        height: 60px;
+        padding: 0;
     }
     .bloc-filtres {
         margin-left: 5%;
