@@ -298,6 +298,32 @@
 }
 
 /* ----- PORTABLE ----- */
+@media screen and (min-width: 381px) and (max-width:462px) {
+    input {
+        width: 240px;
+    }
+    .champs {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 381px) and (max-width:416px) {
+    input {
+        width: 220px;
+    }
+    .champs {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 381px) and (max-width:395px) {
+    input {
+        width: 200px;
+    }
+    .champs {
+        justify-content: center;
+    }
+}
 
 @media screen and (max-width: 380px) {
     #container {
