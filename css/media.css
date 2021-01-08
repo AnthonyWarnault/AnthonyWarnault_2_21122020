@@ -7,16 +7,16 @@
        /* POP ET HEBERGEMENT */
     .pop {
         width: 100%;
-        flex-direction: column;
+        flex-direction: row;
         padding-bottom: 20px;
     }
     .pop .pad {
-        width: 65%;
+        width: 31%;
         max-height: 300px;
     }
     .pop-img {
         max-width: 50%;
-        width: 240px;
+        width: 245px;
         height: 220px;
     }
     .description-txt {
@@ -25,14 +25,17 @@
     .description h3, .description p {
         margin: 0;
         padding: 0;
-        padding-left: 20px;
-        padding-top: 20px;
+        padding-left: 10px;
+        padding-top: 15px;
     }
     .description .stars {
-        padding-left: 15px;
+        padding-left: 5px;
     }
     .description p {
         align-items: flex-end;
+    }
+    .pad7 p,.pad9 p {
+        padding-top: 59px;
     }
     #contenu-heberg {
         display: flex;
